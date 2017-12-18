@@ -28,7 +28,7 @@ def rand01(digit):
 X = [[0, 0],[0, 1],[1, 0],[1, 1]]
 Y = [[0], [1], [1], [0]]
 
-# Add some random noise to our inputs. Useful if we use the tanh activiation function
+# Add some random noise to our inputs. Useful if we use the tanh activation function
 
 add_noise = np.vectorize(rand01)  
 X = add_noise(X)
